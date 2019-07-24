@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106223" started-at="2019-07-22T15:21:20Z" finished-at="2019-07-22T15:23:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="106223" started-at="2019-07-22T15:21:20Z" finished-at="2019-07-22T15:23:07Z">
+      <class name="testmeapp.aditi.OnlineShoppingTest">
+        <test-method status="PASS" signature="startReportBeforeTest()[pri:0, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="startReportBeforeTest" is-config="true" duration-ms="217" started-at="2019-07-22T15:21:20Z" finished-at="2019-07-22T15:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReportBeforeTest -->
+        <test-method status="PASS" signature="open()[pri:0, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="open" is-config="true" duration-ms="14787" started-at="2019-07-22T15:21:21Z" finished-at="2019-07-22T15:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="testRegistration()[pri:1, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="testRegistration" duration-ms="24351" started-at="2019-07-22T15:21:35Z" finished-at="2019-07-22T15:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="getResultAfterMethod" is-config="true" duration-ms="10036" started-at="2019-07-22T15:22:00Z" finished-at="2019-07-22T15:22:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=OnlineShoppingTest.testRegistration()[pri:1, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:2, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="testLogin" duration-ms="5832" started-at="2019-07-22T15:22:10Z" finished-at="2019-07-22T15:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="getResultAfterMethod" is-config="true" duration-ms="10011" started-at="2019-07-22T15:22:16Z" finished-at="2019-07-22T15:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=OnlineShoppingTest.testLogin()[pri:2, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testCart()[pri:3, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="testCart" duration-ms="6942" started-at="2019-07-22T15:22:26Z" finished-at="2019-07-22T15:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="getResultAfterMethod" is-config="true" duration-ms="10022" started-at="2019-07-22T15:22:33Z" finished-at="2019-07-22T15:22:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCart status=SUCCESS method=OnlineShoppingTest.testCart()[pri:3, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testPayment()[pri:4, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="testPayment" duration-ms="13508" started-at="2019-07-22T15:22:43Z" finished-at="2019-07-22T15:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="getResultAfterMethod" is-config="true" duration-ms="10006" started-at="2019-07-22T15:22:56Z" finished-at="2019-07-22T15:23:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPayment status=SUCCESS method=OnlineShoppingTest.testPayment()[pri:4, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="endReportAfterTest()[pri:0, instance:testmeapp.aditi.OnlineShoppingTest@1e0b4072]" name="endReportAfterTest" is-config="true" duration-ms="469" started-at="2019-07-22T15:23:06Z" finished-at="2019-07-22T15:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportAfterTest -->
+      </class> <!-- testmeapp.aditi.OnlineShoppingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
